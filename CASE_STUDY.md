@@ -4,7 +4,7 @@
 
 **Under Open Skies** is a personal portfolio concept inspired by the aurora borealis. A near-black night palette, soft green-blue light, small stars, and mountain silhouettes create a calm setting for presenting creative work. The visual direction is intended to feel curious, thoughtful, and quietly expressive.
 
-> Personalize before submission: update the bio and skills with your own details, and replace each “Add your technologies” label with the actual stack used for that project.
+> Personalize before submission: update the bio and skills with your own details, and add technology details as each application is finalized.
 
 ## 2. Pages and sections
 
@@ -13,7 +13,7 @@ The site is a responsive single-page portfolio with anchor navigation:
 - **Home / Hero** — A concise introduction, availability label, and links to the work and about sections. It gives visitors an immediate sense of the portfolio’s personality.
 - **About** — A short personal introduction and interests, adding context beyond a list of skills.
 - **Skills** — Design, development, and toolkit groupings make capabilities easy to scan.
-- **Projects** — Three project cards present SOS Disaster Management App, Spec to RTL Conversion Application, and VeriMed Application with short descriptions. The technology labels are intentionally left for the author to complete with the tools actually used.
+- **Projects** — Three project cards present short descriptions for each application. The SOS Disaster Management App is marked under progress. The Spec to RTL Conversion Application links to its [GitHub repository](https://github.com/Mirudhula-4227/spec-to-rtl-consistency-checker), and VeriMed links to [MedflowAI](https://github.com/Mirudhula-4227/MedflowAI).
 - **Contact** — A clear email call-to-action links directly to Mirudhula at mirudhulabm@gmail.com.
 - **Footer** — Returns visitors to the top and closes with a small visual sign-off.
 

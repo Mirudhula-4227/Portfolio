@@ -74,7 +74,25 @@ const children = [
   bullet('Home / Hero — ', 'Introduces Mirudhula and the aurora theme, with links that guide visitors to the work and introduction.'),
   bullet('About — ', 'Shares a short personal profile and interests, helping visitors understand the person behind the projects.'),
   bullet('Skills — ', 'Groups design, development, and toolkit skills so capabilities can be scanned quickly.'),
-  bullet('Projects — ', 'Showcases three applications with brief summaries: SOS Disaster Management App focuses on access to alerts, emergency requests, and response information; Spec to RTL Conversion Application explores turning hardware specifications into RTL; VeriMed Application focuses on easier access to medical information and verification. Add the actual technologies used for each project before submission.'),
+  bullet('SOS Disaster Management App — ', 'Marked under progress; the concept focuses on disaster alerts, emergency requests, and response information.'),
+  new Paragraph({
+    children: [
+      new TextRun({ text: 'Spec to RTL Conversion Application — ', bold: true, font: 'Aptos', size: 20, color: navy }),
+      new TextRun({ text: 'Explores converting hardware specifications into RTL. ', font: 'Aptos', size: 20, color: body }),
+      new ExternalHyperlink({ link: 'https://github.com/Mirudhula-4227/spec-to-rtl-consistency-checker', children: [new TextRun({ text: 'GitHub repository', style: 'Hyperlink', font: 'Aptos', size: 20, color: mint, underline: {} })] }),
+    ],
+    bullet: { indent: 360 },
+    spacing: { after: 85, line: 270 },
+  }),
+  new Paragraph({
+    children: [
+      new TextRun({ text: 'VeriMed Application — ', bold: true, font: 'Aptos', size: 20, color: navy }),
+      new TextRun({ text: 'A healthcare application focused on access to medical information and verification. ', font: 'Aptos', size: 20, color: body }),
+      new ExternalHyperlink({ link: 'https://github.com/Mirudhula-4227/MedflowAI', children: [new TextRun({ text: 'GitHub repository', style: 'Hyperlink', font: 'Aptos', size: 20, color: mint, underline: {} })] }),
+    ],
+    bullet: { indent: 360 },
+    spacing: { after: 85, line: 270 },
+  }),
   bullet('Contact — ', 'Provides a direct email action and visible address: mirudhulabm@gmail.com.'),
   bullet('Footer — ', 'Provides a simple closing signature and a back-to-top link.'),
 
@@ -123,7 +141,7 @@ const children = [
   new Paragraph({
     children: [
       new TextRun({ text: 'Before submitting: ', bold: true, font: 'Aptos', size: 18, color: mint }),
-      new TextRun({ text: 'add the actual technology stack used for each project.', font: 'Aptos', size: 18, color: grey }),
+      new TextRun({ text: 'add technology details as each application is finalized.', font: 'Aptos', size: 18, color: grey }),
     ],
     spacing: { before: 120, after: 0 },
   }),

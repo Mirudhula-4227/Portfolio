@@ -122,6 +122,8 @@ h1, h2, h3, p { margin-top: 0; }
 .project-content > p { max-width: 410px; color: #9ca9a3; font-size: 12px; line-height: 1.85; margin-bottom: 20px; }
 .tag-list { display: flex; flex-wrap: wrap; gap: 7px; }
 .tag-list li { padding: 6px 9px; border: 1px solid rgba(225,238,228,.14); border-radius: 30px; font-size: 9px; color: #b2beb6; }
+.project-repo-link { display: inline-flex; align-items: center; gap: 7px; margin-top: 15px; color: var(--mint); font: 9px var(--mono); letter-spacing: .04em; transition: color .2s, gap .2s; }
+.project-repo-link:hover { color: #e0ffeb; gap: 11px; }
 .placeholder-note { color: #78867f; font-size: 8px; letter-spacing: .04em; margin: 20px 0 0; }
 .contact { border-top: 1px solid var(--line); padding-bottom: 95px; }
 .contact-panel { min-height: 430px; margin-top: 37px; padding: 68px 8%; position: relative; overflow: hidden; background: radial-gradient(ellipse at 81% 51%, rgba(37,133,98,.18), transparent 38%), linear-gradient(120deg, rgba(14,26,28,.9), rgba(12,20,26,.82)); border: 1px solid rgba(197,231,207,.12); }

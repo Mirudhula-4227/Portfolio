@@ -6,7 +6,8 @@ const projects = [
     title: 'SOS Disaster Management App',
     type: 'DISASTER MANAGEMENT APPLICATION',
     description: 'An application concept focused on making disaster alerts, emergency requests, and response information easier to access.',
-    tags: ['Add your technologies'],
+    tags: ['Under progress'],
+    githubUrl: undefined,
     artwork: 'northstar',
     symbol: '✳',
   },
@@ -15,7 +16,8 @@ const projects = [
     title: 'Spec to RTL Conversion Application',
     type: 'HARDWARE DESIGN APPLICATION',
     description: 'An application exploring the conversion of hardware specifications into RTL, bridging design requirements and implementation.',
-    tags: ['Add your technologies'],
+    tags: [],
+    githubUrl: 'https://github.com/Mirudhula-4227/spec-to-rtl-consistency-checker',
     artwork: 'fieldnotes',
     symbol: '↗',
   },
@@ -24,7 +26,8 @@ const projects = [
     title: 'VeriMed Application',
     type: 'HEALTHCARE APPLICATION',
     description: 'A healthcare application concept focused on making medical information and verification easier to access.',
-    tags: ['Add your technologies'],
+    tags: [],
+    githubUrl: 'https://github.com/Mirudhula-4227/MedflowAI',
     artwork: 'opensky',
     symbol: '◌',
   },
@@ -121,14 +124,15 @@ function App() {
                 <div className={`project-art art-${project.artwork}`} aria-hidden="true"><div className="art-grain" /><span className="art-symbol">{project.symbol}</span><span className="art-title">{project.title}</span><span className="art-caption-small">A STUDY IN {project.artwork === 'northstar' ? 'RHYTHM' : project.artwork === 'fieldnotes' ? 'OBSERVATION' : 'PERSPECTIVE'}</span></div>
                 <div className="project-content">
                   <div className="project-meta"><span>{project.type}</span><span>{project.number} / 03</span></div>
-                  <h3>{project.title}<span className="project-arrow" aria-hidden="true">↗</span></h3>
+                  <h3>{project.title}{project.githubUrl && <span className="project-arrow" aria-hidden="true">↗</span>}</h3>
                   <p>{project.description}</p>
-                  <ul className="tag-list" aria-label="Technologies and skills used">{project.tags.map((tag) => <li key={tag}>{tag}</li>)}</ul>
+                  {project.tags.length > 0 && <ul className="tag-list" aria-label="Project status">{project.tags.map((tag) => <li key={tag}>{tag}</li>)}</ul>}
+                  {project.githubUrl && <a className="project-repo-link" href={project.githubUrl} target="_blank" rel="noreferrer">View GitHub repository <Arrow diagonal /></a>}
                 </div>
               </article>
             ))}
           </div>
-          <p className="placeholder-note">Replace “Add your technologies” with the actual tools and technologies used for each project.</p>
+          <p className="placeholder-note">Project technology details will be added as each application is finalized.</p>
         </section>
 
         <section className="contact section-wrap section-block" id="contact" aria-labelledby="contact-title">
