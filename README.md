@@ -2,6 +2,10 @@
 
 A responsive React + TypeScript portfolio for Mirudhula, with a dark aurora-inspired visual theme. Project technology labels still need to be replaced with the actual tools used, and the bio/skills can be further personalized.
 
+## Live website
+
+GitHub Pages deploys the site automatically when changes are pushed to `main`: https://mirudhula-4227.github.io/Portfolio/
+
 ## Run locally
 
 Install dependencies with `npm install`, then start the dev server with `npm run dev`. Vite prints a local URL in the terminal.
