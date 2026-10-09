@@ -150,7 +150,6 @@ function App() {
 
       <footer className="footer section-wrap">
         <a className="wordmark footer-mark" href="#home"><span className="wordmark-icon">✳</span><span>mirudhula<span className="wordmark-dot">.</span></span></a>
-        <span className="footer-note">DESIGNED UNDER OPEN SKIES <span>✳</span> 2025</span>
         <a className="back-top" href="#home">BACK TO TOP <span aria-hidden="true">↑</span></a>
       </footer>
     </div>
