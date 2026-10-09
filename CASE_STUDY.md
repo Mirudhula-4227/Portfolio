@@ -48,3 +48,8 @@ The aurora palette, layout, and decorative CSS illustration are original impleme
 ## 6. Learning outcomes
 
 This project demonstrates how to plan a visual theme and carry it consistently through typography, color, layout, and decorative artwork. It also provides practice with responsive CSS, React component rendering, TypeScript, semantic HTML, keyboard focus states, mobile navigation, and reduced-motion accessibility. A useful next step is replacing the sample content with real work and testing the finished portfolio on multiple devices.
+
+## Submission links
+
+- Live website: [https://mirudhula-4227.github.io/Portfolio/](https://mirudhula-4227.github.io/Portfolio/)
+- GitHub repository: [https://github.com/Mirudhula-4227/Portfolio](https://github.com/Mirudhula-4227/Portfolio)

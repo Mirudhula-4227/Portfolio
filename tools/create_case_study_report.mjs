@@ -104,12 +104,26 @@ const children = [
   paragraph('This project provided practice in translating a visual concept into a consistent web experience through color, type, layout, and CSS illustration. It also brought together responsive design, React and TypeScript, semantic HTML, keyboard focus states, mobile navigation, and reduced-motion accessibility. The project reinforced the importance of concise project storytelling and making contact information easy to find.'),
 
   heading('Submission Links'),
-  bullet('Live website: ', '[Add your deployed website URL — the current localhost preview is not publicly accessible.]'),
-  bullet('GitHub: ', '[Add your repository URL if you publish the project; otherwise this is optional.]'),
+  new Paragraph({
+    children: [
+      new TextRun({ text: 'Live website: ', bold: true, font: 'Aptos', size: 20, color: navy }),
+      new ExternalHyperlink({ link: 'https://mirudhula-4227.github.io/Portfolio/', children: [new TextRun({ text: 'https://mirudhula-4227.github.io/Portfolio/', style: 'Hyperlink', font: 'Aptos', size: 20, color: mint, underline: {} })] }),
+    ],
+    bullet: { indent: 360 },
+    spacing: { after: 85, line: 270 },
+  }),
+  new Paragraph({
+    children: [
+      new TextRun({ text: 'GitHub: ', bold: true, font: 'Aptos', size: 20, color: navy }),
+      new ExternalHyperlink({ link: 'https://github.com/Mirudhula-4227/Portfolio', children: [new TextRun({ text: 'https://github.com/Mirudhula-4227/Portfolio', style: 'Hyperlink', font: 'Aptos', size: 20, color: mint, underline: {} })] }),
+    ],
+    bullet: { indent: 360 },
+    spacing: { after: 85, line: 270 },
+  }),
   new Paragraph({
     children: [
       new TextRun({ text: 'Before submitting: ', bold: true, font: 'Aptos', size: 18, color: mint }),
-      new TextRun({ text: 'replace the submission link placeholders and add the actual technology stack used for each project.', font: 'Aptos', size: 18, color: grey }),
+      new TextRun({ text: 'add the actual technology stack used for each project.', font: 'Aptos', size: 18, color: grey }),
     ],
     spacing: { before: 120, after: 0 },
   }),
